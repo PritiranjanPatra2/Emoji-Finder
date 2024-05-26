@@ -50,9 +50,14 @@
         /* #emoji_table tr:nth-child(even) {
             background-color: #f2f2f2;
         } */
+        #emoji_table tr{
+            transition: all .5s;
+        }
 
         #emoji_table tr:hover {
+            transform:scale(1.2);
             background: linear-gradient(to right, #61a2b4, #3b7d41);
+            box-shadow: 1px 2px 3px black;
         }
 
         #emoji_table th, #emoji_table td {
